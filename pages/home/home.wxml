@@ -1,0 +1,8 @@
+<!--pages/home/home.wxml-->
+<view class="home-container">
+  <image src="/static/images/avatar.jpeg" class="avatar"></image>
+  <text class="userInfo">{{username}}</text>
+  <view class="welcome">
+    <text class="welcome-text">{{welcomeText}}</text>
+  </view>
+</view>

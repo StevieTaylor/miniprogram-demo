@@ -1,15 +1,11 @@
 {
-  "entryPagePath": "pages/index/index",
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+  "pages": [
+    "pages/home/home"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "小程序",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小程序"
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
