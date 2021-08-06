@@ -1,7 +1,7 @@
 /*
  * @Author: Stevie
  * @Date: 2021-08-05 16:56:47
- * @LastEditTime: 2021-08-06 13:55:15
+ * @LastEditTime: 2021-08-06 14:09:42
  * @LastEditors: Stevie
  * @Description:
  */
@@ -19,16 +19,15 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log('object :>> ')
-    this.setData({ welcomeText: '欢迎' })
+    console.log('username :>> ', this.data.username)
+    this.setData({ username: 'Taylor' })
+    console.log('username :>> ', this.data.username)
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function () {
-    console.log('this :>> ', this)
-  },
+  onReady: function () {},
 
   /**
    * 生命周期函数--监听页面显示
